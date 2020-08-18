@@ -5,6 +5,8 @@ import time
 from datetime import datetime
 from win10toast import ToastNotifier
 
+#! Remember to type in your credentials below
+#! Also edit the path in the NoSuchElementExceptions to your liking for logging
 
 # Credentials
 yourUsername = ""
@@ -16,7 +18,7 @@ options = webdriver.ChromeOptions()
 # options.add_argument("--headless")
 
 driver = webdriver.Chrome(
-    "./chromedriver.exe", options=options)
+    "driver/chromedriver.exe", options=options)
 driver.get("https://www.praktikpladsen.dk/login")
 
 # Finding login button
@@ -96,7 +98,7 @@ try:
     time.sleep(2)
     element = driver.find_element_by_xpath("/html/body/div/div/div/div[4]/main/div/div/div/div[2]/div/p").text
     print(element)
-    toast.show_toast("Praktikpladsen",element,duration=8, icon="")
+    toast.show_toast("Praktikpladsen",element,duration=8,)
     # * Couldn't prolong because it was recently done
 except NoSuchElementException:
     pass
