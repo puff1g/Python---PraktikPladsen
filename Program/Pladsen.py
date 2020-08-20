@@ -5,8 +5,6 @@ import time
 from datetime import datetime
 from win10toast import ToastNotifier
 
-#! Remember to type in your credentials below
-#! Also edit the path in the NoSuchElementExceptions to your liking for logging
 
 # Credentials
 yourUsername = ""
@@ -15,7 +13,7 @@ toast = ToastNotifier()
 
 options = webdriver.ChromeOptions()
 # Option to make the window invisible - Uncomment the line below for use
-# options.add_argument("--headless")
+options.add_argument("--headless")
 
 driver = webdriver.Chrome(
     "driver/chromedriver.exe", options=options)
@@ -27,11 +25,9 @@ try:
         "/html/body/div/div/div/div[4]/main/div/div/div/div[1]/div/button[1]")
     loginBtn.click()
 except NoSuchElementException:
-    f = open("C:/Users/maje/Desktop/log.txt", "a")
     today = datetime.now()
-    f.write("\nLogin knap ikke fundet. " +
+    print("\nLogin knap ikke fundet. " +
             today.strftime("%d/%m/%Y %H:%M:%S") + " SKAL FIKSES!!!")
-    f.close()
     driver.quit()
 
 # Logging in - Username
@@ -40,11 +36,9 @@ try:
     username.send_keys(yourUsername)
     username.send_keys(Keys.ENTER)
 except NoSuchElementException:
-    f = open("C:/Users/maje/Desktop/log.txt", "a")
     today = datetime.now()
-    f.write("\nFejl - Har du husket at indtaste dit username? " +
+    print("\nFejl - Har du husket at indtaste dit username? " +
             today.strftime("%d/%m/%Y %H:%M:%S"))
-    f.close()
     driver.quit()
 
 # Logging in - Password
@@ -53,11 +47,9 @@ try:
     pwd.send_keys(yourPassword)
     pwd.send_keys(Keys.ENTER)
 except NoSuchElementException:
-    f = open("C:/Users/maje/Desktop/log.txt", "a")
     today = datetime.now()
-    f.write("\nFejl - Har du husket at indtaste dit password? " +
+    print("\nFejl - Har du husket at indtaste dit password? " +
             today.strftime("%d/%m/%Y %H:%M:%S"))
-    f.close()
     driver.quit()
 
 # Skipping password change and animation
@@ -75,11 +67,9 @@ try:
             "/html/body/div/div/div/div[4]/main/div/div/div/div[1]/div[2]/button")
         editBtn.click()
     except NoSuchElementException:
-        f = open("C:/Users/maje/Desktop/log.txt", "a")
         today = datetime.now()
-        f.write("\nKan ikke finde 'Rediger profil' knappen. " +
+        print("\nKan ikke finde 'Rediger profil' knappen. " +
                 today.strftime("%d/%m/%Y %H:%M:%S") + " SKAL FIKSES!!!")
-        f.close()
         driver.quit()
 
     # Finding the prolong button
