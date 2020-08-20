@@ -1,5 +1,16 @@
-# PythonProjects
-All of my Python projects
+<h1 align="center">Hi 👋, This is Praktikpladen exteder!</h1>
 
+<h1 align="center"> u will need a few things for this to work 🙃 <br/> i know... sorry!</h1>
 
-Hey There people!
+<h2 align="center"> i am currently working on making it auto BUT until u will need to do it ur self!  </h2>
+
+You will need the following:  
+Python: [Download](https://www.python.org/downloads/) <br/>
+pip: [Download](https://pypi.org/project/pip/) <br/>
+Selenium: [Download](https://selenium-python.readthedocs.io/installation.html) <br/>
+win10toast: [Download](https://pypi.org/project/win10toast/) <br/>
+
+--------------------------------------------------------------------------------------------
+
+pip install selenium
+pip install win10toast
