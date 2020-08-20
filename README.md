@@ -4,8 +4,7 @@
 
 <h2 align="center"> i am currently working on making it auto BUT until u will need to do it ur self!  </h2>
 
-U will need the following:
-
+You will need the following:
 Python: [Download](https://www.python.org/downloads/) 
 pip: [Download](https://pypi.org/project/pip/)
 Selenium: [Download](https://selenium-python.readthedocs.io/installation.html)
