@@ -1,5 +1,3 @@
-# PythonProjects
-All of my Python projects
+<h1 align="center">Hi 👋, This is Praktikpladen exteder!</h1>
 
-
-Hey There people!
+<h1 align="center"> u will need a few things for this to work 🙃 <br/> i know... **sorry!**</h1>
