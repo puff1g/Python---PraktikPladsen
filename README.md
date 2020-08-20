@@ -9,3 +9,8 @@ Python: [Download](https://www.python.org/downloads/) <br/>
 pip: [Download](https://pypi.org/project/pip/) <br/>
 Selenium: [Download](https://selenium-python.readthedocs.io/installation.html) <br/>
 win10toast: [Download](https://pypi.org/project/win10toast/) <br/>
+
+--------------------------------------------------------------------------------------------
+
+pip install selenium
+pip install win10toast
