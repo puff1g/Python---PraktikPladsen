@@ -73,12 +73,12 @@ try:
         driver.quit()
 
     # Finding the prolong button
+    time.sleep(5)
     extendButtons = driver.find_elements_by_xpath(
         "/html/body/div/div/div/div[4]/main/div/div/div/div[2]/div/div/button[2]")
     for x in extendButtons:
         if 'Forlæng synlighed' in x.text:
             x.click()
-
     # * Succesfully prolonged visibility
     # f = open("C:/Users/maje/Desktop/log.txt", "a")
     today = datetime.now()
