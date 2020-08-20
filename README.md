@@ -12,5 +12,5 @@ win10toast: [Download](https://pypi.org/project/win10toast/) <br/>
 
 --------------------------------------------------------------------------------------------
 
-pip install selenium
+pip install selenium <br/>
 pip install win10toast
