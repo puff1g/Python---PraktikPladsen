@@ -17,4 +17,4 @@ pip install win10toast
 
 
 
-<h1 align="center">Credit to [MJ](https://github.com/MJ-GH) for working along side with me on this 💓 <h1/>
+<h1 align="center">Credit to [MJ-GH](https://github.com/MJ-GH) for working along side with me on this 💓 <h1/>
