@@ -16,5 +16,5 @@ pip install selenium <br/>
 pip install win10toast
 
 
-[MJ-GH](https://github.com/MJ-GH)
-<h1 align="center">Credit to  for working along side with me on this 💓 <h1/>
+
+- Credit to [MJ-GH](https://github.com/MJ-GH) for working along side with me on this 💓 
