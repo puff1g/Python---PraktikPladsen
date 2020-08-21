@@ -6,8 +6,8 @@
 
 You will need the following:  
 Python: [Download](https://www.python.org/downloads/) <br/>
-pip: [Download](https://pypi.org/project/pip/) -- pip install selenium <br/>
-Selenium: [Download](https://selenium-python.readthedocs.io/installation.html) <br/>
+pip: [Download](https://pypi.org/project/pip/)  <br/>
+Selenium: [Download](https://selenium-python.readthedocs.io/installation.html) -- pip install selenium<br/>
 win10toast: [Download](https://pypi.org/project/win10toast/) -- pip install win10toast <br/>
 
 --------------------------------------------------------------------------------------------
